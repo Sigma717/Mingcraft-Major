@@ -44,6 +44,8 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Daniel.yy","order":15,"resourceVersion":"1.0","name":"Daniel","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Ethan.yy","order":16,"resourceVersion":"1.0","name":"Ethan","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Ethan/Objects.yy","order":1,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
