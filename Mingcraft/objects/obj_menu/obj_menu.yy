@@ -27,7 +27,7 @@
     "path": "folders/Ethan/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Potatoes_lol",
+  "name": "obj_menu",
   "tags": [],
   "resourceType": "GMObject",
 }
