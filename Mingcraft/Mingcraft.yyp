@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_menu_book","path":"sprites/spr_menu_book/spr_menu_book.yy",},"order":0,},
+    {"id":{"name":"spr_menu_book_tab","path":"sprites/spr_menu_book_tab/spr_menu_book_tab.yy",},"order":1,},
     {"id":{"name":"obj_stuff","path":"objects/obj_stuff/obj_stuff.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":0,},
