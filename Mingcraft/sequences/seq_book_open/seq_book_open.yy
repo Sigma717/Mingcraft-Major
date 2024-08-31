@@ -33,8 +33,8 @@
   "eventToFunction": {},
   "eventStubScript": null,
   "parent": {
-    "name": "s",
-    "path": "folders/Ethan/s.yy",
+    "name": "Sequences",
+    "path": "folders/Ethan/Sequences.yy",
   },
   "resourceVersion": "1.3",
   "name": "seq_book_open",

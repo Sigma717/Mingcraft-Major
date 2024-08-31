@@ -1,1 +1,1 @@
-i hate life
+book_opens = true

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_menu_book",
-    "path": "sprites/spr_menu_book/spr_menu_book.yy",
+    "name": "spr_menu_book_tab",
+    "path": "sprites/spr_menu_book_tab/spr_menu_book_tab.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Ethan/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_menu",
+  "name": "obj_menu_tab_1",
   "tags": [],
   "resourceType": "GMObject",
 }
