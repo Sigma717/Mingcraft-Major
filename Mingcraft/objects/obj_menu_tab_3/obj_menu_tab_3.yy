@@ -32,7 +32,7 @@
     "path": "folders/Ethan/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_menu_tab_1",
+  "name": "obj_menu_tab_3",
   "tags": [],
   "resourceType": "GMObject",
 }
