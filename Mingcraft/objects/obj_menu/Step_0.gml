@@ -2,8 +2,8 @@ switch (global.tab_opened)
 {
 	case 1:
 	tx1 = 1670
-	tx2 = 1680
-	tx3 = 1680
+	tx2 = 1670
+	tx3 = 1670
 	ty1 = 285
 	ty2 = 395
 	ty3 = 505
@@ -11,13 +11,13 @@ switch (global.tab_opened)
 	case 2:
 	tx1 = 1670
 	tx2 = 1670
-	tx3 = 1680
+	tx3 = 1670
 	ty1 = 175
 	ty2 = 395
 	ty3 = 505
 	break
 	case 3:
-	tx1 = 1680
+	tx1 = 1670
 	tx2 = 1670
 	tx3 = 1670
 	ty1 = 175
@@ -25,8 +25,8 @@ switch (global.tab_opened)
 	ty3 = 505
 	break
 	case 4:
-	tx1 = 1680
-	tx2 = 1680
+	tx1 = 1670
+	tx2 = 1670
 	tx3 = 1670
 	ty1 = 175
 	ty2 = 285
@@ -42,11 +42,21 @@ if book_opens = true {if image_index = 21
 	book_opens = false
 	}}
 	
+if global.tab_pressed = true
+{
+	transition_page_left = instance_create_layer(300, 140, "Instances_2", obj_menu_transition)
+	transition_page_right = instance_create_layer(1070, 140, "Instances_2", obj_menu_transition)
+	global.tab_pressed = false
+}
+	
 if global.tab_change = true
 {
 	instance_destroy(tab1)
 	instance_destroy(tab2)
 	instance_destroy(tab3)
+	instance_destroy(obj_menu_tab_1)
+	instance_destroy(obj_menu_tab_2)
+	instance_destroy(obj_menu_tab_3)
 	global.tabs_popped = 0
 switch global.tab_opened
 {
@@ -66,5 +76,8 @@ switch global.tab_opened
 	tab1 = instance_create_layer(tx1, ty1, "Instances_1", obj_menu_tab_1)
 	tab2 = instance_create_layer(tx2, ty2, "Instances_1", obj_menu_tab_2)
 	tab3 = instance_create_layer(tx3, ty3, "Instances_1", obj_menu_tab_3)
+	instance_destroy(transition_page_left)
+	instance_destroy(transition_page_right)
+	instance_destroy(obj_menu_transition)
 	global.tab_change = false
 }

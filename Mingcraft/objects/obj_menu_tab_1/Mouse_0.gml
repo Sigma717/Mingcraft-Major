@@ -13,4 +13,4 @@ switch (global.tab_opened)
 	global.tab_opened = 1
 	break
 }
-global.tab_change = true
+global.tab_pressed = true

@@ -71,7 +71,7 @@
     "spriteId": {"name":"spr_menu_page_eraser","path":"sprites/spr_menu_page_eraser/spr_menu_page_eraser.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 26.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
