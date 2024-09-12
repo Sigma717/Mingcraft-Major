@@ -58,7 +58,7 @@ if global.tab_change = true
 	instance_destroy(obj_menu_tab_2)
 	instance_destroy(obj_menu_tab_3)
 	global.tabs_popped = 0
-switch global.tab_opened
+switch (global.tab_opened)
 {
 	case 1:
 	image_index = 21
@@ -80,4 +80,10 @@ switch global.tab_opened
 	instance_destroy(transition_page_right)
 	instance_destroy(obj_menu_transition)
 	global.tab_change = false
+}
+
+if image_index = 0 and close = true
+{
+	global.menu_opened = false
+instance_destroy()	
 }

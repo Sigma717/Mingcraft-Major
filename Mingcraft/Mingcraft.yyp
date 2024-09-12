@@ -10,6 +10,7 @@
     {"id":{"name":"seq_book_open","path":"sequences/seq_book_open/seq_book_open.yy",},"order":0,},
     {"id":{"name":"obj_game_ctrl","path":"objects/obj_game_ctrl/obj_game_ctrl.yy",},"order":6,},
     {"id":{"name":"spr_placeholder_character","path":"sprites/spr_placeholder_character/spr_placeholder_character.yy",},"order":4,},
+    {"id":{"name":"room_text_3","path":"rooms/room_text_3/room_text_3.yy",},"order":2,},
     {"id":{"name":"obj_menu_tab_3","path":"objects/obj_menu_tab_3/obj_menu_tab_3.yy",},"order":3,},
     {"id":{"name":"spr_font_pixel","path":"sprites/spr_font_pixel/spr_font_pixel.yy",},"order":6,},
     {"id":{"name":"obj_menu_transition","path":"objects/obj_menu_transition/obj_menu_transition.yy",},"order":4,},
@@ -19,6 +20,7 @@
     {"id":{"name":"room_test_1","path":"rooms/room_test_1/room_test_1.yy",},"order":0,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":0,},
     {"id":{"name":"obj_menu_tab_1","path":"objects/obj_menu_tab_1/obj_menu_tab_1.yy",},"order":1,},
+    {"id":{"name":"spr_lock_shown","path":"sprites/spr_lock_shown/spr_lock_shown.yy",},"order":7,},
     {"id":{"name":"spr_menu_page_eraser","path":"sprites/spr_menu_page_eraser/spr_menu_page_eraser.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -48,6 +50,7 @@
     {"roomId":{"name":"room_test_1","path":"rooms/room_test_1/room_test_1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"room_test_2","path":"rooms/room_test_2/room_test_2.yy",},},
+    {"roomId":{"name":"room_text_3","path":"rooms/room_text_3/room_text_3.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
