@@ -22,6 +22,7 @@
     {"id":{"name":"obj_menu_tab_1","path":"objects/obj_menu_tab_1/obj_menu_tab_1.yy",},"order":1,},
     {"id":{"name":"spr_lock_shown","path":"sprites/spr_lock_shown/spr_lock_shown.yy",},"order":7,},
     {"id":{"name":"spr_menu_page_eraser","path":"sprites/spr_menu_page_eraser/spr_menu_page_eraser.yy",},"order":2,},
+    {"id":{"name":"spr_anotherchar","path":"sprites/spr_anotherchar/spr_anotherchar.yy",},"order":8,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
