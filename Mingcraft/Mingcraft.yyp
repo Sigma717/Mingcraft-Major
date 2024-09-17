@@ -9,6 +9,7 @@
     {"id":{"name":"room_test_2","path":"rooms/room_test_2/room_test_2.yy",},"order":1,},
     {"id":{"name":"seq_book_open","path":"sequences/seq_book_open/seq_book_open.yy",},"order":0,},
     {"id":{"name":"obj_game_ctrl","path":"objects/obj_game_ctrl/obj_game_ctrl.yy",},"order":6,},
+    {"id":{"name":"spr_lock_pick","path":"sprites/spr_lock_pick/spr_lock_pick.yy",},"order":9,},
     {"id":{"name":"spr_placeholder_character","path":"sprites/spr_placeholder_character/spr_placeholder_character.yy",},"order":4,},
     {"id":{"name":"room_text_3","path":"rooms/room_text_3/room_text_3.yy",},"order":2,},
     {"id":{"name":"obj_menu_tab_3","path":"objects/obj_menu_tab_3/obj_menu_tab_3.yy",},"order":3,},
