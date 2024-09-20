@@ -9,6 +9,7 @@
     {"id":{"name":"room_test_2","path":"rooms/room_test_2/room_test_2.yy",},"order":1,},
     {"id":{"name":"seq_book_open","path":"sequences/seq_book_open/seq_book_open.yy",},"order":0,},
     {"id":{"name":"obj_game_ctrl","path":"objects/obj_game_ctrl/obj_game_ctrl.yy",},"order":6,},
+    {"id":{"name":"obj_lock_pick_fr","path":"objects/obj_lock_pick_fr/obj_lock_pick_fr.yy",},"order":0,},
     {"id":{"name":"spr_lock_pick","path":"sprites/spr_lock_pick/spr_lock_pick.yy",},"order":9,},
     {"id":{"name":"spr_placeholder_character","path":"sprites/spr_placeholder_character/spr_placeholder_character.yy",},"order":4,},
     {"id":{"name":"room_text_3","path":"rooms/room_text_3/room_text_3.yy",},"order":2,},
@@ -50,10 +51,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"room_text_3","path":"rooms/room_text_3/room_text_3.yy",},},
     {"roomId":{"name":"room_test_1","path":"rooms/room_test_1/room_test_1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"room_test_2","path":"rooms/room_test_2/room_test_2.yy",},},
-    {"roomId":{"name":"room_text_3","path":"rooms/room_text_3/room_text_3.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -81,6 +82,7 @@
     {"folderPath":"folders/Ethan/Sequences.yy","order":3,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Ethan/Rooms.yy","order":4,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Ethan/Tilest.yy","order":5,"resourceVersion":"1.0","name":"Tilest","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Ethan/Objects/lock.yy","order":7,"resourceVersion":"1.0","name":"lock","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
