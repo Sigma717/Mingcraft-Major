@@ -22,6 +22,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"room_test_1","path":"rooms/room_test_1/room_test_1.yy",},"order":0,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":0,},
+    {"id":{"name":"spr_lock_pins_boxes_pins_but_not_in_a_box","path":"sprites/spr_lock_pins_boxes_pins_but_not_in_a_box/spr_lock_pins_boxes_pins_but_not_in_a_box.yy",},"order":11,},
     {"id":{"name":"obj_menu_tab_1","path":"objects/obj_menu_tab_1/obj_menu_tab_1.yy",},"order":1,},
     {"id":{"name":"spr_lock_shown","path":"sprites/spr_lock_shown/spr_lock_shown.yy",},"order":7,},
     {"id":{"name":"spr_menu_page_eraser","path":"sprites/spr_menu_page_eraser/spr_menu_page_eraser.yy",},"order":2,},
