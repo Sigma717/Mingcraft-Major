@@ -10,19 +10,19 @@
   "bbox_left": 10,
   "bbox_right": 59,
   "bbox_top": 0,
-  "bbox_bottom": 279,
+  "bbox_bottom": 199,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 70,
-  "height": 400,
+  "height": 200,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 10,
+  "gridY": 16,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"358682b8-7ce7-4f2a-9d42-b7230da42d55","path":"sprites/spr_lock_pins_boxes_pins_but_not_in_a_box/spr_lock_pins_boxes_pins_but_not_in_a_box.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"358682b8-7ce7-4f2a-9d42-b7230da42d55","path":"sprites/spr_lock_pins_boxes_pins_but_not_in_a_box/spr_lock_pins_boxes_pins_but_not_in_a_box.yy",},"LayerId":{"name":"e65cee80-836f-49e6-928a-d6d12a78e76f","path":"sprites/spr_lock_pins_boxes_pins_but_not_in_a_box/spr_lock_pins_boxes_pins_but_not_in_a_box.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

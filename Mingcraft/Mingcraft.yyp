@@ -16,6 +16,7 @@
     {"id":{"name":"obj_menu_tab_3","path":"objects/obj_menu_tab_3/obj_menu_tab_3.yy",},"order":3,},
     {"id":{"name":"spr_font_pixel","path":"sprites/spr_font_pixel/spr_font_pixel.yy",},"order":6,},
     {"id":{"name":"obj_menu_transition","path":"objects/obj_menu_transition/obj_menu_transition.yy",},"order":4,},
+    {"id":{"name":"obj_lock_pins_boxes_pins_but_not_in_a_box","path":"objects/obj_lock_pins_boxes_pins_but_not_in_a_box/obj_lock_pins_boxes_pins_but_not_in_a_box.yy",},"order":1,},
     {"id":{"name":"obj_stuff","path":"objects/obj_stuff/obj_stuff.yy",},"order":1,},
     {"id":{"name":"spr_lock_lockpick","path":"sprites/spr_lock_lockpick/spr_lock_lockpick.yy",},"order":10,},
     {"id":{"name":"obj_menu_text","path":"objects/obj_menu_text/obj_menu_text.yy",},"order":5,},
