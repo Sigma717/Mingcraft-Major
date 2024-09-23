@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+tense = random(8) + 1
+pushes = false
+lockedin = false

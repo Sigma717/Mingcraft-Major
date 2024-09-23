@@ -4,6 +4,7 @@
     {"id":{"name":"spr_menu_book","path":"sprites/spr_menu_book/spr_menu_book.yy",},"order":1,},
     {"id":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},"order":3,},
     {"id":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},"order":5,},
+    {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":12,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"spr_menu_book_tab","path":"sprites/spr_menu_book_tab/spr_menu_book_tab.yy",},"order":0,},
     {"id":{"name":"room_test_2","path":"rooms/room_test_2/room_test_2.yy",},"order":1,},
