@@ -14,7 +14,7 @@ if pushes = true
 {
 	
 }
-
+if place_meeting(obj_lock_pick_fr.colx, obj_lock_pick_fr.coly, self) = true
+{
 pushes = true
-//place_meeting(x, y, obj_lock_pick_fr)
-//if place_meeting(obj_lock_pick_fr.x+
+}

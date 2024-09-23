@@ -1,2 +1,0 @@
-draw_self()
-draw_sprite(spr_test, 0, x + lengthdir_x(point_distance(200, 20, 794, 74), point_direction(200, 20, 794, 74) + image_angle), y + lengthdir_y(point_distance(200, 20, 794, 74), point_direction(200, 20, 794, 74) + image_angle))
