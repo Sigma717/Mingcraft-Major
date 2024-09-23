@@ -21,7 +21,7 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 300,
+  "gridX": 100,
   "gridY": 140,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"4d56f0b0-25c7-4ead-8494-31a04a2f1b7b","path":"sprites/spr_menu_book/spr_menu_book.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[

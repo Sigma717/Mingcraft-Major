@@ -40,6 +40,7 @@ if book_opens = true {if image_index = 21
 	tab2 = instance_create_layer(tx2, ty2, "Instances_1", obj_menu_tab_2)
 	tab3 = instance_create_layer(tx3, ty3, "Instances_1", obj_menu_tab_3)
 	book_opens = false
+	global.text_change = true
 	}}
 	
 if global.tab_pressed = true
@@ -76,14 +77,12 @@ switch (global.tab_opened)
 	tab1 = instance_create_layer(tx1, ty1, "Instances_1", obj_menu_tab_1)
 	tab2 = instance_create_layer(tx2, ty2, "Instances_1", obj_menu_tab_2)
 	tab3 = instance_create_layer(tx3, ty3, "Instances_1", obj_menu_tab_3)
-	instance_destroy(transition_page_left)
-	instance_destroy(transition_page_right)
-	instance_destroy(obj_menu_transition)
 	global.tab_change = false
-}
+	}
 
 if image_index = 0 and close = true
 {
 	global.menu_opened = false
 instance_destroy()	
 }
+
