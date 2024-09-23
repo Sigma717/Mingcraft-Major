@@ -28,7 +28,7 @@ draw_text(570, 210, "This is...")
 draw_text(570, 300, "the third page")
 draw_sprite(spr_char_image, 1, 570, 650)
 draw_text(1340, 210, "This is...")
-draw_text(1340, 300, "the 4nd page")
+draw_text(1340, 300, "the jhin page")
 draw_sprite(spr_char_image, 3, 1340, 650)
 break
 
