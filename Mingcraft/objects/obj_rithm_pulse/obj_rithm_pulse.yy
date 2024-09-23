@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_rithm_hold_rectangle",
-    "path": "sprites/spr_rithm_hold_rectangle/spr_rithm_hold_rectangle.yy",
+    "name": "spr_rithm_pulse",
+    "path": "sprites/spr_rithm_pulse/spr_rithm_pulse.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Ethan/Objects/rithm.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rithm_hold_rectangle",
+  "name": "obj_rithm_pulse",
   "tags": [],
   "resourceType": "GMObject",
 }
