@@ -26,3 +26,4 @@ if image_angle <= 0
 colx = x + lengthdir_x(point_distance(200, 20, 785, 74), point_direction(200, 20, 785, 74) + image_angle)
 coly = y + lengthdir_y(point_distance(200, 20, 785, 74), point_direction(200, 20, 785, 74) + image_angle)
 }
+
