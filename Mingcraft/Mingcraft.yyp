@@ -100,9 +100,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"room_test_5","path":"rooms/room_test_5/room_test_5.yy",},},
-    {"roomId":{"name":"room_test_1","path":"rooms/room_test_1/room_test_1.yy",},},
     {"roomId":{"name":"room_test_4","path":"rooms/room_test_4/room_test_4.yy",},},
     {"roomId":{"name":"room_text_3","path":"rooms/room_text_3/room_text_3.yy",},},
+    {"roomId":{"name":"room_test_1","path":"rooms/room_test_1/room_test_1.yy",},},
     {"roomId":{"name":"room_test_2","path":"rooms/room_test_2/room_test_2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
