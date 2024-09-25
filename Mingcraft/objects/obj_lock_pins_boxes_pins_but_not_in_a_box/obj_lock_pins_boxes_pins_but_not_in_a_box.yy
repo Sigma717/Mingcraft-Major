@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "lock",
-    "path": "folders/Ethan/Objects/lock.yy",
+    "path": "folders/Ethan/lock.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lock_pins_boxes_pins_but_not_in_a_box",

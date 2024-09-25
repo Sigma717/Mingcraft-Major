@@ -121,8 +121,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Ethan/Sprites.yy",
+    "name": "menu",
+    "path": "folders/Ethan/menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_menu_page_eraser",

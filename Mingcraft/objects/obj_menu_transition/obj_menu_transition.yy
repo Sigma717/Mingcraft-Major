@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Ethan/Objects.yy",
+    "name": "menu",
+    "path": "folders/Ethan/menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_menu_transition",

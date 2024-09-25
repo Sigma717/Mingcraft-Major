@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Ethan/Sprites.yy",
+    "name": "rithm",
+    "path": "folders/Ethan/rithm.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_rithm_walls",

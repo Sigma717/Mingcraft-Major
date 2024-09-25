@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Ethan/Sprites.yy",
+    "name": "lock",
+    "path": "folders/Ethan/lock.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lock_pin_split",

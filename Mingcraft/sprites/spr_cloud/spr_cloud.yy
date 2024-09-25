@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Ethan/Sprites.yy",
+    "name": "Tilest",
+    "path": "folders/Ethan/Tilest.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cloud",

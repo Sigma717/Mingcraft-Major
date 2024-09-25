@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "fish",
-    "path": "folders/Ethan/Objects/fish.yy",
+    "path": "folders/Ethan/fish.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_fish_smol",

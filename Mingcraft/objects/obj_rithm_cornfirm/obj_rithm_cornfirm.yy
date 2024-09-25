@@ -40,7 +40,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "rithm",
-    "path": "folders/Ethan/Objects/rithm.yy",
+    "path": "folders/Ethan/rithm.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_rithm_cornfirm",

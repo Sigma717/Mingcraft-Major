@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "lock",
-    "path": "folders/Ethan/Objects/lock.yy",
+    "path": "folders/Ethan/lock.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lock_pin_split",

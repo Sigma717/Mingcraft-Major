@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Ethan/Sprites.yy",
+    "name": "fish",
+    "path": "folders/Ethan/fish.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fish_smol",
