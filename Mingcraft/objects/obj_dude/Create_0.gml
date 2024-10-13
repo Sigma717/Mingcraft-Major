@@ -2,3 +2,19 @@
 current_state = 0
 //direction / right=0 left=1
 derection = 0
+
+sprint_toggle = true
+
+jumpy = 0
+jumper = 0
+letzago = false
+letzzago = false
+yass = -5
+yasss = false
+jrecover = false
+
+global.sprint_shift = vk_shift
+global.go_right = ord("D")
+global.go_left = ord("A")
+global.jump = vk_space
+
