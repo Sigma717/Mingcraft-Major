@@ -9,7 +9,7 @@ jumpy = 0
 jumper = 0
 letzago = false
 letzzago = false
-yass = -5
+yass = -7
 yasss = false
 jrecover = false
 

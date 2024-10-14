@@ -57,7 +57,7 @@ if letzago = true
 {
 current_state = 3
 if image_index >= 5 {image_speed = 0; image_index = 5}
-y = y - 5	
+y = y - 7	
 jumper = jumper + 1
 if jumper >= 15
 {
@@ -65,11 +65,9 @@ if jumpy < 16
 {
 letzzago = true
 letzago = false
-show_debug_message("d")
 }
 if jumpy >= 16
 {
-show_debug_message("c")
 jumpy = 0
 jumper = 0
 }
@@ -78,12 +76,11 @@ jumper = 0
 
 if letzzago = true
 {
-show_debug_message("e")
 current_state = 3
 y = y + yass
 yass = yass + 0.5
 if yass >= 0 {image_index = 6}
-if yasss = true {yass = -5; letzzago = false; jrecover = true; yasss = false; show_debug_message("f")}
+if yasss = true {yass = -5; letzzago = false; jrecover = true; yasss = false}
 }
 
 if jrecover = true
@@ -99,13 +96,8 @@ letzzago = false
 yass = -5
 yasss = false
 jrecover = false
-//show_debug_message("a")
 }
 }
-
-
-
-//if jrecover = true {show_debug_message("b")}
 
 if keyboard_check_pressed(vk_control) = true
 {yasss = true}
