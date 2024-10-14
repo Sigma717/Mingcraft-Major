@@ -1,0 +1,5 @@
+draw_self()
+draw_text(room_width/2, room_height/2, current_state)
+draw_text(room_width/2, room_height/2+40, jumpy)
+draw_text(room_width/2, room_height/2+80, jumper)
+draw_text(room_width/2, room_height/2 + 120, image_index)

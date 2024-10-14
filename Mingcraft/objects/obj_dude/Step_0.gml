@@ -46,7 +46,7 @@ if keyboard_check(global.jump) = true
 jumpy = jumpy + 1
 }
 
-if keyboard_check_pressed(global.jump) = true
+if keyboard_check_pressed(global.jump) = true and current_state != 3
 {
 current_state = 3
 image_speed = 1
@@ -90,7 +90,7 @@ if jrecover = true
 {
 current_state = 3
 image_speed = 1
-if image_index = 8 or image_index = 9 
+if image_index = 9 
 {
 jumpy = 0
 jumper = 0
@@ -102,6 +102,8 @@ jrecover = false
 //show_debug_message("a")
 }
 }
+
+
 
 //if jrecover = true {show_debug_message("b")}
 
