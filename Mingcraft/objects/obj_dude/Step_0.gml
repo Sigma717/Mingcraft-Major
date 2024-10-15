@@ -16,6 +16,10 @@ case 3:
 if derection = 0 {sprite_index = spr_dude_jump_left}
 if derection = 1 {sprite_index = spr_dude_jump_right}
 break
+case 4:
+if derection = 0 {sprite_index = spr_dude_jump_left; image_index = 6}
+if derection = 1 {sprite_index = spr_dude_jump_right; image_index = 6}
+break
 }
 
 current_state = 0
@@ -41,13 +45,9 @@ if sprint_toggle = true {if current_state != 3 {current_state = 1}; x = x - 10}
 if sprint_toggle = false {if current_state != 3 {current_state = 2}; x = x - 3}
 }
 
-if keyboard_check(global.jump) = true
+if keyboard_check_pressed(global.jump) = true and current_state != 3 and current_state != 4 and jrecovered = true
 {
-jumpy = jumpy + 1
-}
-
-if keyboard_check_pressed(global.jump) = true and current_state != 3
-{
+jrecovered = false
 current_state = 3
 image_speed = 1
 letzago = true
@@ -61,16 +61,8 @@ y = y - 7
 jumper = jumper + 1
 if jumper >= 15
 {
-if jumpy < 16
-{
 letzzago = true
 letzago = false
-}
-if jumpy >= 16
-{
-jumpy = 0
-jumper = 0
-}
 }
 }
 
@@ -96,8 +88,18 @@ letzzago = false
 yass = -5
 yasss = false
 jrecover = false
+alarm[0] = 1 //room_speed*0.05
 }
 }
 
 if keyboard_check_pressed(vk_control) = true
 {yasss = true}
+
+if current_state != 3 and place_meeting(x, y + 1, obj_platform_test) = false 
+{
+current_state = 4
+y = y + fall
+fall = fall + 0.5
+}
+else
+{fall = 0}

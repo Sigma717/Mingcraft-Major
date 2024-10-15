@@ -12,9 +12,11 @@ letzzago = false
 yass = -7
 yasss = false
 jrecover = false
+jrecovered = true
 
 global.sprint_shift = vk_shift
 global.go_right = ord("D")
 global.go_left = ord("A")
 global.jump = vk_space
 
+fall = 0
