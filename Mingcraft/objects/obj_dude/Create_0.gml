@@ -14,6 +14,7 @@ yasss = false
 jrecover = false
 jrecovered = true
 
+global.can_sprint = false
 global.sprint_shift = vk_shift
 global.go_right = ord("D")
 global.go_left = ord("A")
