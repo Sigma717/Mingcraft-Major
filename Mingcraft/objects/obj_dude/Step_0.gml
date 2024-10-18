@@ -94,7 +94,7 @@ alarm[0] = 1 //room_speed*0.05
 }
 }
 
-if current_state != 3 and place_meeting(x, y + 1, obj_platform_test) = false 
+if current_state != 3 and position_meeting(x, y + 1, obj_platform_test) = false 
 {
 current_state = 4
 y = y + fall
@@ -102,3 +102,5 @@ fall = fall + 0.5
 }
 else
 {fall = 0}
+
+
