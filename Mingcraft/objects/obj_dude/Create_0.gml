@@ -21,3 +21,4 @@ global.go_left = ord("A")
 global.jump = vk_space
 
 fall = 0
+plsfall = false

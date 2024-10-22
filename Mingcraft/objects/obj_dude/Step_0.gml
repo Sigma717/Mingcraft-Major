@@ -22,6 +22,7 @@ if derection = 1 {sprite_index = spr_dude_jump_right; image_index = 6}
 break
 }
 
+
 current_state = 0
 //if keyboard_key = 0 {current_state = 0}
 
@@ -51,7 +52,7 @@ if keyboard_check_pressed(global.jump) = true and current_state != 3 and current
 {
 jrecovered = false
 current_state = 3
-image_speed = 1
+image_speed = 2
 letzago = true
 }
 
@@ -94,7 +95,7 @@ alarm[0] = 1 //room_speed*0.05
 }
 }
 
-if current_state != 3 and position_meeting(x, y + 1, obj_platform_test) = false 
+if current_state != 3 and position_meeting(x, y + 1, obj_platform_test) = false or plsfall = true
 {
 current_state = 4
 y = y + fall
@@ -102,5 +103,4 @@ fall = fall + 0.5
 }
 else
 {fall = 0}
-
 

@@ -3,10 +3,23 @@ if other.yprevious > y - 10
 if other.yprevious < y - 10
 {upordown = 1}
 
+plsfall = false
 if other.y > y + 60
 {
-other.y = clamp(other.y, y + 76, 99999)
+other.y = clamp(other.y, y + 86, 99999)
 down = true
+if other.current_state = 3 
+{
+jumpy = 0
+jumper = 0
+letzago = false
+letzzago = false
+yass = -5
+yasss = false
+jrecover = false
+other.alarm[0] = 1 
+other.plsfall = true
+}
 }
 
 if down = false
@@ -15,12 +28,14 @@ if other.current_state = 3 and other.x > x - 50 and other.x < x + 50 //and upord
 {
 other.yasss = true	
 other.y = y - 10
+plsfall = false
 }
 
 
 if other.current_state = 4 and other.x > x - 50 and other.x < x + 50 //and upordown = 1
 {
 other.y = y - 10
+plsfall = false
 }
 }
 down = false
