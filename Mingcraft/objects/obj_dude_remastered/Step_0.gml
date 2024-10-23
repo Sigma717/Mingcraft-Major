@@ -36,16 +36,16 @@ if keyboard_check(global.go_right) = true
 {
 derection = 0
 //if place_meeting(x + 1, y, obj_platform_test) = false{
-if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; x = x + 10}
-if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; x = x + 3}
+if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; hspeed = hspeed + 0.5; hspeed = clamp(hspeed, 0, 10)}
+if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; hspeed = hspeed + 0.1; clamp(hspeed, 0, 3)}
 }
 
 if keyboard_check(global.go_left) = true
 {
 derection = 1
 //if place_meeting(x - 1, y, obj_platform_test) = false{
-if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; x = x - 10}
-if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; x = x - 3}
+if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; hspeed = hspeed - 0.5; hspeed = clamp(hspeed, -10, 0)}
+if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; hspeed = hspeed + 0.1; hspeed = clamp(hspeed, -3, 0)}
 }
 
 if keyboard_check_pressed(global.jump) = true and current_state != 3 and current_state != 4 and jrecovered = true
@@ -95,7 +95,7 @@ alarm[0] = 1 //room_speed*0.05
 }
 }
 
-if current_state != 3 and position_meeting(x, y + 1, obj_platform_test) = false or plsfall = true
+if current_state != 3 and position_meeting(x, y + 1, obj_platform_test_remastered) = false or plsfall = true
 {
 current_state = 4
 y = y + fall
@@ -106,3 +106,8 @@ else
 
 //if keyboard_check(vk_enter) = true
 //{plsfall = false}
+
+if keyboard_check(global.go_right) = false and keyboard_check(global.go_left = false)
+{
+hspeed = hspeed - hspeed/2
+}
