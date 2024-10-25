@@ -24,26 +24,26 @@ other.plsfall = true
 
 if down = false
 {
-if other.current_state = 3 and other.x > x - 50 and other.x < x + 50 //and upordown = 1
+if other.current_state = 3 and other.x > x - 150 and other.x < x + 150 //and upordown = 1
 {
 other.yasss = true	
 other.y = y - 10
 }
 
 
-if other.current_state = 4 and other.x > x - 50 and other.x < x + 50 //and upordown = 1
+if other.current_state = 4 and other.x > x - 150 and other.x < x + 150 //and upordown = 1
 {
 other.y = y - 10
 }
 }
 down = false
 
-if other.x > x + 50 or other.xprevious > x + 50
+if other.x > x + 150 or other.xprevious > x + 150
 {
 other.x = clamp(other.x, x + 65, 99999)
 }
 
-if other.x < x - 50 or other.xprevious < x - 50
+if other.x < x - 150 or other.xprevious < x - 150
 {
 other.x = clamp(other.x, 0, x - 65)
 }

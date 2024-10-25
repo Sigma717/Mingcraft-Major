@@ -22,3 +22,5 @@ global.jump = vk_space
 
 fall = 0
 plsfall = false
+
+array = [obj_platform_test, obj_platform_test_remastered]
