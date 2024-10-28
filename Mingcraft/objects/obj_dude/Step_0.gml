@@ -36,7 +36,7 @@ if keyboard_check(global.go_right) = true
 {
 derection = 0
 //if place_meeting(x + 1, y, obj_platform_test) = false{
-if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x + 10} else {x = x + 7}}
+if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x + 10} else {if bokchoi = true {x = x + 3} else {x = x + 8}}}
 if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; x = x + 3}
 }
 
@@ -44,7 +44,7 @@ if keyboard_check(global.go_left) = true
 {
 derection = 1
 //if place_meeting(x - 1, y, obj_platform_test) = false{
-if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x - 10} else {x = x - 7}}
+if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x - 10} else {if bokchoi = true {x = x - 3} else {x = x - 8}}}
 if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; x = x - 3}
 }
 
@@ -60,7 +60,7 @@ if letzago = true
 {
 current_state = 3
 if image_index >= 5 {image_speed = 0; image_index = 5}
-y = y - 7	
+y = y - 10
 jumper = jumper + 1
 if jumper >= 15
 {
@@ -95,14 +95,33 @@ alarm[0] = 1 //room_speed*0.05
 }
 }
 
-if current_state != 3 and position_meeting(x, y + 1, obj_platform_test) = false and  place_meeting(x, y + 1, obj_platform_long_test) = false or plsfall = true
+if current_state != 3 and position_meeting(x, y + 1, obj_platform_test) = false and position_meeting(x, y + 1, obj_platform_long_test) = false
 {
 current_state = 4
 y = y + fall
 fall = fall + 0.5
 }
 else
-{fall = 0}
+{fall = 0; bokchoi = false}
+
+if current_state = 3 
+{
+if position_meeting(x, y - 86, obj_platform_test) = true or position_meeting(x, y - 86, obj_platform_long_test) = true
+{
+image_speed = 1
+jumpy = 0
+jumper = 0
+letzago = false
+letzzago = false
+yass = -5
+yasss = false
+jrecover = false
+alarm[0] = 1
+}
+}
+
+
+
 
 //if keyboard_check(vk_enter) = true
 //{plsfall = false}

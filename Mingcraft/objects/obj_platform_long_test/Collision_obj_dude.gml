@@ -4,7 +4,7 @@ if other.yprevious < y - 10
 {upordown = 1}
 
 other.plsfall = false
-if other.y > y + 60
+if other.y > y + 80
 {
 other.y = clamp(other.y, y + 86, 99999)
 down = true
@@ -38,16 +38,20 @@ other.y = y - 10
 }
 down = false
 
+if other.current_state = 3 or other.current_state = 4
+{
 if other.x > x + 150 or other.xprevious > x + 150
 {
-other.x = clamp(other.x, x + 65, 99999)
+other.bokchoi = true
+other.x = clamp(other.x, x + 165, 99999)
 }
 
 if other.x < x - 150 or other.xprevious < x - 150
 {
-other.x = clamp(other.x, 0, x - 65)
+other.bokchoi = true
+other.x = clamp(other.x, 0, x - 165)
 }
-
+}
 //if other.x > x + 50 or other.xprevious > x + 50 and yprevious < y - 10
 //{
 //other.x = clamp(other.x, x + 65, 99999)
