@@ -57,6 +57,7 @@
     {"id":{"name":"spr_placeholder_character3334","path":"sprites/spr_placeholder_character3334/spr_placeholder_character3334.yy",},"order":5,},
     {"id":{"name":"obj_rithm_cornfirm","path":"objects/obj_rithm_cornfirm/obj_rithm_cornfirm.yy",},"order":1,},
     {"id":{"name":"obj_fish_ctrl","path":"objects/obj_fish_ctrl/obj_fish_ctrl.yy",},"order":1,},
+    {"id":{"name":"obj_testings","path":"objects/obj_testings/obj_testings.yy",},"order":4,},
     {"id":{"name":"spr_fish_smol","path":"sprites/spr_fish_smol/spr_fish_smol.yy",},"order":6,},
     {"id":{"name":"obj_dude","path":"objects/obj_dude/obj_dude.yy",},"order":0,},
     {"id":{"name":"obj_stuff","path":"objects/obj_stuff/obj_stuff.yy",},"order":1,},

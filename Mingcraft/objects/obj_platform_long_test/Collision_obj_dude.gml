@@ -71,4 +71,3 @@ other.x = clamp(other.x, 0, x - 165)
 //{
 //other.x = clamp(other.x, x + 50, 999999)
 //}
-

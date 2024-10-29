@@ -22,7 +22,6 @@ if derection = 1 {sprite_index = spr_dude_jump_right; image_index = 6}
 break
 }
 
-
 current_state = 0
 //if keyboard_key = 0 {current_state = 0}
 
@@ -36,7 +35,7 @@ if keyboard_check(global.go_right) = true
 {
 derection = 0
 //if place_meeting(x + 1, y, obj_platform_test) = false{
-if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x + 10} else {if bokchoi = true {x = x + 3} else {x = x + 8}}}
+if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x + 8} else {if bokchoi = true {x = x + 3} else {x = x + 8}}}
 if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; x = x + 3}
 }
 
@@ -44,11 +43,11 @@ if keyboard_check(global.go_left) = true
 {
 derection = 1
 //if place_meeting(x - 1, y, obj_platform_test) = false{
-if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x - 10} else {if bokchoi = true {x = x - 3} else {x = x - 8}}}
+if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x - 8} else {if bokchoi = true {x = x - 3} else {x = x - 8}}}
 if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; x = x - 3}
 }
 
-if keyboard_check_pressed(global.jump) = true and current_state != 3 and current_state != 4 and jrecovered = true
+if keyboard_check_pressed(global.jump) = true and current_state != 3 and current_state != 4 and jrecovered = true and allowedtojump = true
 {
 jrecovered = false
 current_state = 3
