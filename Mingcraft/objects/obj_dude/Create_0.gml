@@ -21,6 +21,7 @@ global.sprint_shift = vk_shift
 global.go_right = ord("D")
 global.go_left = ord("A")
 global.jump = vk_space
+global.interact = ord("E")
 
 fall = 0
 plsfall = false

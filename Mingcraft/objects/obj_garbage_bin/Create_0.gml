@@ -1,3 +1,3 @@
 pop = false
-
-box = 1
+subimg = 0
+global.collectible_1 = false
