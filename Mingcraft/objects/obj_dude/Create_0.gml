@@ -5,6 +5,7 @@ derection = 0
 
 sprint_toggle = true
 
+bokchoi = false
 allowedtojump = true
 jumpy = 0
 jumper = 0
