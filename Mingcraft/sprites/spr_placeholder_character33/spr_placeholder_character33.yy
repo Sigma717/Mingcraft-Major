@@ -25,8 +25,8 @@
   "gridY": 2,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"e1e0abec-5678-4a1c-9ad5-8e79cb48aa8d","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e1e0abec-5678-4a1c-9ad5-8e79cb48aa8d","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"LayerId":{"name":"d69c2f6f-8ccf-4b01-a786-093fa8688428","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"e1e0abec-5678-4a1c-9ad5-8e79cb48aa8d","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"LayerId":{"name":"836922ee-0f9a-468e-b6a3-4732dc37b7fe","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"e1e0abec-5678-4a1c-9ad5-8e79cb48aa8d","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"LayerId":{"name":"d69c2f6f-8ccf-4b01-a786-093fa8688428","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_placeholder_character33","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"resourceVersion":"1.0","name":"e1e0abec-5678-4a1c-9ad5-8e79cb48aa8d","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"8864d1a3-2c4c-49db-b4f1-2a79c2b0eeb9","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"8864d1a3-2c4c-49db-b4f1-2a79c2b0eeb9","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"LayerId":{"name":"836922ee-0f9a-468e-b6a3-4732dc37b7fe","path":"sprites/spr_placeholder_character33/spr_placeholder_character33.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -86,8 +86,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "sprs",
-    "path": "folders/Ethan/character/sprs.yy",
+    "name": "e",
+    "path": "folders/Ethan/character/sprs/e.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_placeholder_character33",

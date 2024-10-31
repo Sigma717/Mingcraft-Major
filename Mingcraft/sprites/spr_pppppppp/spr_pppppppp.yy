@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 45,
-  "bbox_right": 966,
-  "bbox_top": 45,
+  "bbox_left": 36,
+  "bbox_right": 348,
+  "bbox_top": 46,
   "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1024,
+  "width": 384,
   "height": 128,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 64,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f2ef1170-c332-4ebe-b951-54b480f23f16","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f2ef1170-c332-4ebe-b951-54b480f23f16","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"LayerId":{"name":"ebdcca16-1ee7-406d-ab02-9444070ba4fc","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pppppppp","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"resourceVersion":"1.0","name":"f2ef1170-c332-4ebe-b951-54b480f23f16","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b8b2c684-3a06-4ab9-b2db-16a160003a44","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b8b2c684-3a06-4ab9-b2db-16a160003a44","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"LayerId":{"name":"7b9ed2a2-e36b-4ab9-b8d8-c2bc528be2ae","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pppppppp","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"resourceVersion":"1.0","name":"b8b2c684-3a06-4ab9-b2db-16a160003a44","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_pppppppp","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3d40a663-7b6d-496c-91bf-d5d55cc1a5e3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2ef1170-c332-4ebe-b951-54b480f23f16","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"68799b8e-01bf-4951-806d-94ccb38c0208","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8b2c684-3a06-4ab9-b2db-16a160003a44","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ebdcca16-1ee7-406d-ab02-9444070ba4fc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7b9ed2a2-e36b-4ab9-b8d8-c2bc528be2ae","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "sprs",
-    "path": "folders/Ethan/character/sprs.yy",
+    "name": "e",
+    "path": "folders/Ethan/character/sprs/e.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pppppppp",

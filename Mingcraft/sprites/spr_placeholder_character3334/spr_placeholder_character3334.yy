@@ -226,8 +226,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "sprs",
-    "path": "folders/Ethan/character/sprs.yy",
+    "name": "e",
+    "path": "folders/Ethan/character/sprs/e.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_placeholder_character3334",
