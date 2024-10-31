@@ -23,8 +23,9 @@ draw_set_halign(fa_center)
 if subimg = 11
 {draw_text(x, y - 80, "Interact")}
 
-if pop = true and keyboard_check_pressed(global.interact) = true and global.collectible_1 = true
+if pop = true and keyboard_check_pressed(global.interact) = true and global.collectible_1 = false
 {
 global.collectible_1 = true
-
+instance_deactivate_all(false)
+instance_create_layer(x, y, "Instances_front", obj_collectible)
 }
