@@ -80,6 +80,7 @@
     {"id":{"name":"obj_garbage_bin","path":"objects/obj_garbage_bin/obj_garbage_bin.yy",},"order":2,},
     {"id":{"name":"obj_fish_ctrl","path":"objects/obj_fish_ctrl/obj_fish_ctrl.yy",},"order":1,},
     {"id":{"name":"obj_testings","path":"objects/obj_testings/obj_testings.yy",},"order":4,},
+    {"id":{"name":"spr_building_1_smol_bot","path":"sprites/spr_building_1_smol_bot/spr_building_1_smol_bot.yy",},"order":3,},
     {"id":{"name":"spr_fish_smol","path":"sprites/spr_fish_smol/spr_fish_smol.yy",},"order":6,},
     {"id":{"name":"obj_dude","path":"objects/obj_dude/obj_dude.yy",},"order":0,},
     {"id":{"name":"obj_baboom","path":"objects/obj_baboom/obj_baboom.yy",},"order":6,},
