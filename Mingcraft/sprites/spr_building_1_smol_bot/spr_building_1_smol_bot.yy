@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 10,
-  "gridY": 10,
+  "gridX": 5,
+  "gridY": 5,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"02c64143-baa3-436f-9af2-2833bdac6c2e","path":"sprites/spr_building_1_smol_bot/spr_building_1_smol_bot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"02c64143-baa3-436f-9af2-2833bdac6c2e","path":"sprites/spr_building_1_smol_bot/spr_building_1_smol_bot.yy",},"LayerId":{"name":"bf9b9737-2938-4d0e-a53d-4f1fc118f3eb","path":"sprites/spr_building_1_smol_bot/spr_building_1_smol_bot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "sec1",
-    "path": "folders/Ethan/platty/sec1.yy",
+    "name": "not used",
+    "path": "folders/Ethan/platty/sec1/not used.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_building_1_smol_bot",
