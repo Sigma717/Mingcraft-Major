@@ -104,6 +104,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_dude_jump_left","path":"sprites/spr_dude_jump_left/spr_dude_jump_left.yy",},"order":10,},
     {"id":{"name":"room_test_1","path":"rooms/room_test_1/room_test_1.yy",},"order":0,},
+    {"id":{"name":"spr","path":"sprites/spr/spr.yy",},"order":14,},
     {"id":{"name":"obj_platform_long_test","path":"objects/obj_platform_long_test/obj_platform_long_test.yy",},"order":4,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":0,},
     {"id":{"name":"spr_lock_pins_boxes_pins_but_not_in_a_box","path":"sprites/spr_lock_pins_boxes_pins_but_not_in_a_box/spr_lock_pins_boxes_pins_but_not_in_a_box.yy",},"order":7,},
