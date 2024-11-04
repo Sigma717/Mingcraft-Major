@@ -26,4 +26,5 @@ global.interact = ord("E")
 fall = 0
 plsfall = false
 
+enhanced = false
 //array = [obj_platform_test, obj_platform_test_remastered]
