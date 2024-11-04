@@ -1,3 +1,4 @@
+//if room != blablabla
 switch current_state
 {
 case 0:
@@ -121,6 +122,51 @@ alarm[0] = 1
 
 if room = room_cyberone and x >= 3000
 {room_goto(room_cybertwo)}
+
+
+//if room = blablabla
+switch current_state
+{
+case 5:
+//i_hate_life
+break //myneck
+case 6:
+}
+current_state = 5
+
+if keyboard_check_pressed(global.lpunch) and punch_2 = false and current_state != 7
+{
+current_state = 6
+if punch_1 = false
+{punch_1 = true}
+if punch_1 = true
+{
+punch_2 = true
+}
+}
+
+if punch_1 = true
+{
+current_state = 6
+x = x + 5/image_index 
+//if image_index = idk and punch_2 = false
+{punch_1 = false}
+//if image_index >= idk and punch_2 = true
+//{x = x + 5/(image_index-idk)	}
+//if image_index = idkx2 
+{punch_1 = false; punch_2 = false}
+}
+
+//if punch_1 = true and image_index = idk and place_meeting(x, y, obj_badude) = true
+//{other.hp = other.hp - anamount}
+//if punch_1 = true and image_index = idkx2 and place_meeting(x, y, obj_badude) = true
+//{other.hp = other.hp - anamount}
+
+
+if keyboard_check_pressed(global.hkick)
+{
+
+}
 
 
 
