@@ -119,7 +119,7 @@ alarm[0] = 1
 }
 }
 
-if room = room_cyberone and x = 3000
+if room = room_cyberone and x >= 3000
 {room_goto(room_cybertwo)}
 
 
