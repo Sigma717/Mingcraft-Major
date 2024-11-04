@@ -28,5 +28,8 @@ global.hkick = mb_right
 fall = 0
 plsfall = false
 
+punch_1 = false
+punch_2 = false
+
 enhanced = false
 //array = [obj_platform_test, obj_platform_test_remastered]
