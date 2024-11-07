@@ -162,10 +162,10 @@ if room = room_cyberone and x >= 3000
 //if punch_1 = true and image_index = 6 and place_meeting(x, y, obj_badude) = true
 //{other.hp = other.hp - anamount}
 
-if keyboard_check_pressed(global.hkick)
-{
+//if keyboard_check_pressed(global.hkick)
+//{
 
-}
+//}
 
 
 
