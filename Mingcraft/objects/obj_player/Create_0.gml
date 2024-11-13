@@ -6,8 +6,8 @@ image_speed = 0
 hsp = 0
 vsp = 0
 walksp = 12
-rollsp = 1
-rolldis = 25
+rollsp = 1	
+rolldis = 15
 #endregion
 #region Image Variables
 spriterun = spr_playerR
