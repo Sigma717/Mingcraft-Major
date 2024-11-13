@@ -1,1 +1,0 @@
-global.text_change = false
