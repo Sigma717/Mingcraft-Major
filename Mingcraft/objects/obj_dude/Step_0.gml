@@ -36,7 +36,7 @@ if keyboard_check(global.go_right) = true
 {
 derection = 0
 //if place_meeting(x + 1, y, obj_platform_test) = false{
-if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x + 8} else {if bokchoi = true {x = x + 3} else {x = x + 8}}}
+if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true or place_meeting(x, y + 1, obj_platform_test_butmoveing) = true {x = x + 8} else {if bokchoi = true {x = x + 3} else {x = x + 8}}}
 if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; x = x + 3}
 }
 
@@ -44,7 +44,7 @@ if keyboard_check(global.go_left) = true
 {
 derection = 1
 //if place_meeting(x - 1, y, obj_platform_test) = false{
-if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true {x = x - 8} else {if bokchoi = true {x = x - 3} else {x = x - 8}}}
+if sprint_toggle = true {if current_state != 3 and current_state != 4 {current_state = 1}; if place_meeting(x, y + 1, obj_platform_test) = true or place_meeting(x, y + 1, obj_platform_long_test) = true or place_meeting(x, y + 1, obj_platform_test_butmoveing) = true {x = x - 8} else {if bokchoi = true {x = x - 3} else {x = x - 8}}}
 if sprint_toggle = false {if current_state != 3 and current_state != 4 {current_state = 2}; x = x - 3}
 }
 
@@ -95,7 +95,7 @@ alarm[0] = 1 //room_speed*0.05
 }
 }
 
-if current_state != 3 and position_meeting(x, y + 1, obj_platform_test) = false and position_meeting(x, y + 1, obj_platform_long_test) = false
+if current_state != 3 and position_meeting(x, y + 1, obj_platform_test) = false and position_meeting(x, y + 1, obj_platform_long_test) = false and position_meeting(x, y + 1, obj_platform_test_butmoveing) = false
 {
 current_state = 4
 y = y + fall
@@ -106,7 +106,7 @@ else
 
 if current_state = 3 
 {
-if position_meeting(x, y - 86, obj_platform_test) = true or position_meeting(x, y - 86, obj_platform_long_test) = true
+if position_meeting(x, y - 86, obj_platform_test) = true or position_meeting(x, y - 86, obj_platform_long_test) = true or position_meeting(x, y - 86, obj_platform_test_butmoveing) = true
 {
 image_speed = 1
 jumpy = 0

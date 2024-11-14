@@ -123,7 +123,9 @@
     {"id":{"name":"spr_menu_page_eraser","path":"sprites/spr_menu_page_eraser/spr_menu_page_eraser.yy",},"order":8,},
     {"id":{"name":"spr_rithm_tap_smol","path":"sprites/spr_rithm_tap_smol/spr_rithm_tap_smol.yy",},"order":18,},
     {"id":{"name":"obj_rithm_lane","path":"objects/obj_rithm_lane/obj_rithm_lane.yy",},"order":6,},
+    {"id":{"name":"obj_platform_test_butmoveing","path":"objects/obj_platform_test_butmoveing/obj_platform_test_butmoveing.yy",},"order":7,},
     {"id":{"name":"spr_tension_meter","path":"sprites/spr_tension_meter/spr_tension_meter.yy",},"order":10,},
+    {"id":{"name":"spr_building_front_2","path":"sprites/spr_building_front_2/spr_building_front_2.yy",},"order":1,},
     {"id":{"name":"obj_platform_test","path":"objects/obj_platform_test/obj_platform_test.yy",},"order":1,},
     {"id":{"name":"spr_lock_pin_split","path":"sprites/spr_lock_pin_split/spr_lock_pin_split.yy",},"order":6,},
     {"id":{"name":"spr_building_1","path":"sprites/spr_building_1/spr_building_1.yy",},"order":0,},
@@ -212,6 +214,7 @@
     {"folderPath":"folders/Ethan/character/sprs/e.yy","order":13,"resourceVersion":"1.0","name":"e","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Ethan/platty/sec1/not used.yy","order":5,"resourceVersion":"1.0","name":"not used","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Ethan/platty/sec2.yy","order":6,"resourceVersion":"1.0","name":"sec2","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Ethan/platty/sec2/buildings.yy","order":1,"resourceVersion":"1.0","name":"buildings","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
