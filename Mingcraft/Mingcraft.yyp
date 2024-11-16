@@ -21,6 +21,7 @@
     {"id":{"name":"spr_rithm_hold_circle","path":"sprites/spr_rithm_hold_circle/spr_rithm_hold_circle.yy",},"order":13,},
     {"id":{"name":"spr_rithm_walls","path":"sprites/spr_rithm_walls/spr_rithm_walls.yy",},"order":19,},
     {"id":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},"order":1,},
+    {"id":{"name":"obj_platform_test_butmoveing1","path":"objects/obj_platform_test_butmoveing1/obj_platform_test_butmoveing1.yy",},"order":8,},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},"order":12,},
     {"id":{"name":"room_cyberone","path":"rooms/room_cyberone/room_cyberone.yy",},"order":6,},
     {"id":{"name":"spr_playerR","path":"sprites/spr_playerR/spr_playerR.yy",},"order":1,},
