@@ -24,9 +24,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
+<<<<<<< HEAD
     {"compositeImage":{"FrameId":{"name":"d323a51d-7453-43c5-a474-4a53b5f09ff9","path":"sprites/spr_scaffolding/spr_scaffolding.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"d323a51d-7453-43c5-a474-4a53b5f09ff9","path":"sprites/spr_scaffolding/spr_scaffolding.yy",},"LayerId":{"name":"6375a4c3-ea85-4582-9e91-745eb7f243fb","path":"sprites/spr_scaffolding/spr_scaffolding.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_scaffolding","path":"sprites/spr_scaffolding/spr_scaffolding.yy",},"resourceVersion":"1.0","name":"d323a51d-7453-43c5-a474-4a53b5f09ff9","tags":[],"resourceType":"GMSpriteFrame",},
+=======
+    {"compositeImage":{"FrameId":{"name":"9bbeb75d-19e5-46ba-a80d-473bcdb0348c","path":"sprites/spr_garbage_bin/spr_garbage_bin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9bbeb75d-19e5-46ba-a80d-473bcdb0348c","path":"sprites/spr_garbage_bin/spr_garbage_bin.yy",},"LayerId":{"name":"0cf3707a-4bae-4611-9445-b10e1f298497","path":"sprites/spr_garbage_bin/spr_garbage_bin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"9bbeb75d-19e5-46ba-a80d-473bcdb0348c","path":"sprites/spr_garbage_bin/spr_garbage_bin.yy",},"LayerId":{"name":"213c5a49-2648-4d33-bcdf-35b0bd17d210","path":"sprites/spr_garbage_bin/spr_garbage_bin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_garbage_bin","path":"sprites/spr_garbage_bin/spr_garbage_bin.yy",},"resourceVersion":"1.0","name":"9bbeb75d-19e5-46ba-a80d-473bcdb0348c","tags":[],"resourceType":"GMSpriteFrame",},
+>>>>>>> parent of 39addc2 (Reapply "Merge branch 'main' of https://github.com/Sigma717/Mingcraft-Major")
   ],
   "sequence": {
     "spriteId": {"name":"spr_scaffolding","path":"sprites/spr_scaffolding/spr_scaffolding.yy",},
