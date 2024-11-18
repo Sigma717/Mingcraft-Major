@@ -174,6 +174,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"room_cyberone","path":"rooms/room_cyberone/room_cyberone.yy",},},
+    {"roomId":{"name":"room_cybertwo","path":"rooms/room_cybertwo/room_cybertwo.yy",},},
     {"roomId":{"name":"Rm_medieval_cell","path":"rooms/Rm_medieval_cell/Rm_medieval_cell.yy",},},
     {"roomId":{"name":"room_Test_7","path":"rooms/room_Test_7/room_Test_7.yy",},},
     {"roomId":{"name":"room_tedt_6","path":"rooms/room_tedt_6/room_tedt_6.yy",},},
@@ -183,7 +184,6 @@
     {"roomId":{"name":"room_test_2","path":"rooms/room_test_2/room_test_2.yy",},},
     {"roomId":{"name":"room_test_1","path":"rooms/room_test_1/room_test_1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"room_cybertwo","path":"rooms/room_cybertwo/room_cybertwo.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
