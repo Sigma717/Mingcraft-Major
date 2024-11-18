@@ -18,6 +18,7 @@
     {"id":{"name":"spr_wallW","path":"sprites/spr_wallW/spr_wallW.yy",},"order":3,},
     {"id":{"name":"spr_pppppppp","path":"sprites/spr_pppppppp/spr_pppppppp.yy",},"order":5,},
     {"id":{"name":"obj_collectible","path":"objects/obj_collectible/obj_collectible.yy",},"order":0,},
+    {"id":{"name":"spr_restaurant1","path":"sprites/spr_restaurant1/spr_restaurant1.yy",},"order":5,},
     {"id":{"name":"spr_rithm_hold_circle","path":"sprites/spr_rithm_hold_circle/spr_rithm_hold_circle.yy",},"order":13,},
     {"id":{"name":"spr_rithm_walls","path":"sprites/spr_rithm_walls/spr_rithm_walls.yy",},"order":19,},
     {"id":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},"order":1,},
