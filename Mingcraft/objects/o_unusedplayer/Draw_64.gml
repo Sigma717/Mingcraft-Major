@@ -1,0 +1,7 @@
+draw_set_valign(fa_center)
+draw_set_halign(fa_center)
+draw_set_color(c_black)
+draw_set_font(global.fnt_pixel)
+draw_text(120, 35, "ENERGY")
+draw_sprite_ext(spr_energy_bar_bar, 0, 70, 70, global.energy_current/global.energy, 1, 0, c_white, 1)
+draw_sprite_ext(spr_energy_bar, 0, 70, 70, 1, 1, 0, c_white, 1)

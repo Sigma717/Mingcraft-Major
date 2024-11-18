@@ -1,0 +1,1 @@
+rect = instance_create_layer(x, y, "Instances_2", obj_rithm_hold_rectangle)

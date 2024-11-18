@@ -8,9 +8,15 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
+<<<<<<< HEAD
   "bbox_right": 0,
   "bbox_top": 0,
   "bbox_bottom": 0,
+=======
+  "bbox_right": 99,
+  "bbox_top": 0,
+  "bbox_bottom": 99,
+>>>>>>> parent of 08b15c4 (Merge branch 'main' of https://github.com/Sigma717/Mingcraft-Major)
   "HTile": false,
   "VTile": false,
   "For3D": false,
